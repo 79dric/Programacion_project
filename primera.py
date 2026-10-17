@@ -1,5 +1,7 @@
 import streamlit as st
 
+pg = st.navigation([st.Page("primera.py"), st.Page("segunda.py")])
+pg.run()
 st.sidebar.write("Menú")
 
 st.sidebar.write("Brissa Aracely Carrasco Iglesias 395007")
