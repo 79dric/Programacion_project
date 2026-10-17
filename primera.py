@@ -1,4 +1,4 @@
-import streamilt as st
+import streamlit as st
 
 st.sidebar.write("Brissa Ramos")
 st.sidebar.write("Isadora Armendariz")
